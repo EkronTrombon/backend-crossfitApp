@@ -18,7 +18,8 @@ var usuarioSchema = new Schema({
     password: { type: String, required: [true, 'La contraseña es requerida'] },
     direccion: { type: String, required: false },
     tfno: { type: String, required: false },
-    img: { type: String, required: false }
+    img: { type: String, required: false },
+    google: { type: Boolean, default: false }
 });
 
 usuarioSchema.plugin(uniqueValidator, { message: '{PATH} ya existe' });
