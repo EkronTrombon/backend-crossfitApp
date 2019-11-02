@@ -15,7 +15,7 @@
         "express": "^4.17.1",
         "google-auth-library": "^4.2.0",
         "jsonwebtoken": "^8.5.1",
-        "mongoose": "^5.5.13",
+        "mongoose": "^5.7.5",
         "mongoose-unique-validator": "^2.0.3"
     },
     "devDependencies": {
